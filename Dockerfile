@@ -11,5 +11,5 @@ WORKDIR /opt/KataTrainReservation/booking_reference_service
 
 RUN pip install cherrypy
 
-CMD ["python", "booking_reference_service.py"]
+CMD ["python3", "booking_reference_service.py"]
 
